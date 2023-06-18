@@ -1,4 +1,16 @@
-<div class="container">
-  <h1>Starter One</h1>
-  <p>Minimal Angular Starter - One component and CSS framework</p>
+<div class="container flex one center b spacer c-host">
+  <c-info>AppComponent</c-info>
+
+  <h1 class="text-center">Starter One</h1>
+  <p class="text-center">
+    Minimal Angular Starter - One component and CSS framework
+  </p>
+
+  <div class="flex one section">
+    <div *ngFor="let project of projects">
+      <article class="card">
+        <p>{{ project.name }}</p>
+      </article>
+    </div>
+  </div>
 </div>
