@@ -1,8 +1,5 @@
-# 40A1-14
-
+# StarterOne
 
 `npm install -g @angular/cli`
 
 `ng new starter-one`
-
-
